@@ -11,7 +11,7 @@ import com.sonata.EModel.Employee;
 
 
 public class EmployeeImpl implements EmployeeIntf{
-	DBConnection db = new DBConnection();
+	DBconnection db = new DBconnection();
     int row = 0;
     public int save(Object object) {
     	Employee p1 = (Employee) object ;
